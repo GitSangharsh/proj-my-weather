@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(bg.png);
+    background-size: cover;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    margin: 50px 0px;
+}
+
+.header input{
+    width: 250px;
+    height: 50px;
+    padding-left: 20px;
+    background-color:   rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+    font-size: 20px ;
+    color: rgb(126, 119, 119);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 4px 4px rgb(236, 184, 74);
+}
+
+.info .city{
+    font-weight: 600;
+    font-size: 35px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.324);
+    color: white;
+}
+
+.info .date{
+    padding: 10px 0px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.current .degree{
+    padding-top: 100px;
+    color: white;
+    font-size: 110px;
+    font-weight: 600;
+    text-shadow: 1px 10px 5px black;
+}
+
+.current .fill{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.598);
+}
+
+.current .mix{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.598);
+}
